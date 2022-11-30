@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.button-1 {
+  width: 30%;
+  position: absolute;
+  right: 0;
+  font-size: 30px;
+  background: none;
+
+
+}
+.button-1 :hover {
+  background-color: blueviolet;
+}
+
+.text {
+  width: 70%;
+  position: absolute;
+  left: 0;
+
+}
